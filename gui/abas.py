@@ -1,7 +1,7 @@
 # calculadora_investimento/gui/abas.py
 import tkinter as tk
 from tkinter import ttk
-from Calculos.investimento import calcular_investimento_necessario, calcular_retorno_investimento
+from calculos.investimento import calcular_investimento_necessario, calcular_retorno_investimento
 
 class AbaInvestimentoNecessario:
     def __init__(self, notebook):
