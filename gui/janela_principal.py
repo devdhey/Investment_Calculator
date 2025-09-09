@@ -16,4 +16,4 @@ class JanelaPrincipal:
         self.notebook.add(self.aba_investimento.frame, text="Investimento Necessário")
 
         self.aba_retorno = AbaRetornoInvestimento(self.notebook)
-        self.notebook.add(self.aba_retorno.frame, text="Retorno com Investimento")
+        self.notebook.add(self.aba_retorno.frame, text="Retorno Anual com Investimento")
